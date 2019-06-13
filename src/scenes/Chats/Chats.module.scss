@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-right: 1px solid #ccc;
+}
+
+.main {
+    display: flex;
+    flex: 5;
+}
+
+.sendContainer {
+    display: flex;
+    font-family: Open Sans;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 22px;    
+}
+.sendInput {
+    height: 58px;
+    padding: 0 20px;
+    flex: 1;
+}

@@ -1,0 +1,46 @@
+header {
+    padding: 18px 0;
+}
+
+.header {
+    background: linear-gradient(#090810, #171236);    
+}
+.widthParams { 
+    display: flex;  
+    flex-direction: column; 
+    max-width: 1182px;
+    margin: 0 auto;
+}
+.topHeader {
+    display: flex;
+    justify-content: space-between; 
+    .login {    
+        text-transform: uppercase;
+        text-decoration: none; 
+        color: #FFFFFF; 
+        cursor: pointer;         
+    }   
+    .right {
+        display: flex;  
+        align-items: center; 
+        margin-right: 20px; 
+    }
+}
+.lightTopHeader{
+    display: flex;
+    justify-content: space-between;
+    .login {    
+        text-transform: uppercase;
+        text-decoration: none; 
+        color: #2B2B2B;          
+    }  
+    .right {
+        display: flex;  
+        align-items: center;  
+        margin-right: 20px;
+    } 
+}
+
+
+
+

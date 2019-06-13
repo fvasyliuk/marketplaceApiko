@@ -1,0 +1,19 @@
+.button {
+    flex: 1;
+    display: flex;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #349A89;
+    border: none;      
+}
+
+.button_container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 14px;
+}

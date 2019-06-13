@@ -1,0 +1,44 @@
+.container {
+    max-width: 904px;
+    flex-direction: column;
+    background: #FFFFFF;
+    margin: 0 auto 76px auto;
+    padding-bottom: 27px;
+
+    .topWraper {
+        
+        .userContainer {
+            padding-top: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .name {
+                margin-top: 17px;
+                font-size: 20px;
+                color: #141414;
+                font-family: Rubik;
+                text-align: center;
+            }
+            .bottom {
+                font-family: Rubik;
+                margin-top: 4px;
+                color: #9099A7;
+                font-weight: 300;
+                font-size: 13px;
+                text-align: center;
+            }
+        }
+    }
+
+    .productContainer{
+        margin: 27px 0 0 0;
+        max-width: 904px;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+        
+        .productItem {
+            margin-top: 17px;
+        }
+    }
+}

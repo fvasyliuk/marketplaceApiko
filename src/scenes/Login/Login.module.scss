@@ -1,0 +1,121 @@
+.wraper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 425px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.111233);
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica;
+    margin-top: 75px;
+}
+
+.container {
+    margin: 0 0 21px 0;
+    width: 89%;
+    display: flex;
+    flex-direction: column;  
+    
+    label {
+        font-size: 12px;
+        line-height: 14px;
+        font-weight: bold;
+
+        letter-spacing: 0.3px;
+        text-transform: uppercase;
+
+        color: #303030;
+    }
+
+    .emailContainer {        
+        display: flex;
+        flex-direction: column;
+        
+        input {            
+            height: 58px;
+            background: #F9FAFB;
+            border: 1px solid #DEDEE0;                        
+            border-radius: 5px;
+            padding: 0 13px;
+            font-size: 16px;
+            line-height: 18px;
+            letter-spacing: 0.4px;
+        }
+    }
+    .passwordContainer {        
+        display: flex;
+        flex-direction: column;
+        input {
+            height: 58px;
+            background: #F9FAFB;
+            border: 1px solid #DEDEE0;                        
+            border-radius: 5px;
+            padding: 0 13px;
+            font-size: 16px;
+            line-height: 18px;
+            letter-spacing: 0.4px;
+        }
+    }
+}
+
+.submitButton {
+    height: 58px;
+    background: #349A89;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.4px;
+    border: none;
+    width: 100%;
+    margin-top: 16px; 
+}
+
+.rememberPassword {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.4px;
+    text-align: right;
+    margin: 5px 0 0 0;       
+    a {
+        color: #8C8C8C;
+    }  
+}
+
+.title {
+    font-size: 22px;
+    line-height: 25px;
+    color: #282828;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.bottom {
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 76px;
+    max-width: 425px;
+    margin: 21px auto 0 auto;
+    background: #FFF;
+    a {
+        margin-left: 4px;
+    }
+}
+
+.errorContainer {
+    color: red;
+}
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}

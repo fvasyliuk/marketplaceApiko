@@ -1,0 +1,126 @@
+.container {
+    display: flex;
+    max-width: 855px;
+    margin: 23px auto 0;
+    justify-content: space-between;
+    font-family: Helvetica;
+    align-items: flex-start;
+}
+
+.productContainer {
+    display: flex;
+    flex-direction: column;
+    width: 68%;
+    border-radius: 4.32px;
+    box-shadow: 0px 5px 15px rgba(121, 121, 121, 0.0527344);
+    background: #FFFFFF;
+    border: 1.08px solid #E4E4E4;
+ 
+    .photoContainer {
+        position: relative;
+        display: flex;
+        flex: 1;
+        padding: 3px;
+        max-height: 274px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+        .price {
+            position: absolute;
+            background: #fff;
+            padding: 7px 18px 0 18px;
+            border-radius: 10.8px 0px 0 0;
+            right: 0;
+            bottom: 0;
+            font-family: Helvetica;
+            font-size: 19.44px;
+            line-height: 22px;
+            font-weight: bold;
+        }
+    }
+
+    .titleContainer {
+        margin-top: 10px;
+        display: flex;
+        align-items: flex-end;
+        padding: 0 19px;
+        color: #373738;
+        font-size: 18.36px;
+        .createdInfo {
+            color: #9D9D9D;
+            font-size: 14.04px;
+            margin-left: 5px;
+            margin-bottom: 2px;
+        }
+    }
+
+    .locationContainer {
+        padding: 14px 19px;
+        display: flex;
+        align-items: center;
+        font-size: 14.04px;
+        color: rgba(123, 123, 123, 0.776523); 
+        border-bottom: 1.08px solid rgba(151, 151, 151, 0.166439);
+
+        .iconLocation {
+            margin-right: 5px;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .descriptionContainer {
+        padding: 14px 19px;
+        display: flex;
+        align-items: center;
+        font-size: 14.04px;
+        color: #2B2B2B; 
+    }
+}
+
+.rightContainer {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+    .chat {
+        margin-top: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 47px;
+        background: #349A89;
+        border-radius: 4px;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+    }
+    .favorive {
+        margin-top: 11px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 47px;
+        background: #FFFFFF;
+        border: 1px solid #349A89;
+        border-radius: 4px;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #535353;
+        cursor: pointer;
+
+        .iconShape {
+            margin-right: 14px; 
+        }
+    }
+}
+
+.modal {
+    background: #FFF;
+    max-width: 820px;
+    width: 70%;
+    margin: auto;
+}

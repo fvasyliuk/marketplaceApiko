@@ -1,0 +1,151 @@
+.container {    
+    display: flex;
+    flex-direction: column;
+    max-width: 1136px;     
+    margin: 34px auto 0;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.111233);
+    border-radius: 7px;
+    font-family: Helvetica;
+
+    .formTitle {
+        font-size: 22px;
+        margin-top: 36px; 
+    }
+    input {
+        height: 58px;
+        border-radius: 5px;
+        font-size: 16px;  
+        border: 1px solid #DEDEE0;  
+        background: #F9FAFB;   
+        padding: 0 16px;        
+    }
+    textarea {
+        font-family: Helvetica;
+        border-radius: 5px;
+        height: 145px;
+        font-size: 16px;
+        border: 1px solid #DEDEE0;
+        background: #F9FAFB;
+        padding: 19px 16px; 
+        resize: none;    
+    }
+    button {
+        height: 58px;
+        border-radius: 5px;
+        min-width: 57%;
+        margin: 42px auto 32px;
+        font-size: 16px;
+        background: #349A89;
+        color: #FFFFFF;
+        border: none;
+        cursor: pointer;
+    }
+    form {          
+        display: flex;
+        flex-direction: column;
+        width: 59%;
+         
+    } 
+    label {        
+        text-transform: uppercase;   
+        display: flex;
+        margin-top: 24px;
+        font-size: 12px;
+        margin-right: 4px;
+        color: #303030;
+    }
+}
+
+.headerFild {
+    display: flex;
+    align-items: flex-end;
+    color:red;
+}
+
+.backModal {    
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;      
+    height: 930px;
+    background: rgba(0, 0, 0, 0.15);
+    
+}
+.containerModal {    
+    display: flex;
+    flex-direction: column;
+    max-width: 1136px;     
+    margin: 0 auto;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.111233);
+    border-radius: 7px;
+    font-family: Helvetica;
+    position: absolute;    
+    top: 25px;
+    left: 10%;
+    right: 10%;        
+
+    .formTitle {
+        font-size: 22px;
+        margin-top: 36px; 
+    }
+    input {
+        height: 58px;
+        border-radius: 5px;
+        font-size: 16px;  
+        border: 1px solid #DEDEE0;  
+        background: #F9FAFB;   
+        padding: 0 16px;        
+    }
+    textarea {
+        font-family: Helvetica;
+        border-radius: 5px;
+        height: 145px;
+        font-size: 16px;
+        border: 1px solid #DEDEE0;
+        background: #F9FAFB;
+        padding: 19px 16px; 
+        resize: none;    
+    }
+    button {
+        height: 58px;
+        border-radius: 5px;
+        min-width: 57%;
+        margin: 42px auto 32px;
+        font-size: 16px;
+        background: #349A89;
+        color: #FFFFFF;
+        cursor: pointer;
+        border: none;
+    }
+    form {          
+        display: flex;
+        flex-direction: column;
+        width: 59%;
+         
+    } 
+    label {        
+        text-transform: uppercase;   
+        display: flex;
+        margin-top: 24px;
+        font-size: 12px;
+        margin-right: 4px;
+        color: #303030;
+    }
+}
+
+.containerPhotos {
+    display: flex;
+    flex: 1;    
+    height: 124px;
+    background: #F9FAFB;
+    border: 1px solid #DEDEE0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;  
+    padding: 16px 6px;
+}

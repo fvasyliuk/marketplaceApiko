@@ -1,0 +1,55 @@
+.container {    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F5F7FB;
+    padding: 9px 0;
+    margin-bottom: 40px;
+}
+
+.left {
+    display: flex;
+    margin-left: 17px;
+    align-items: center;
+}
+
+.right {
+    margin-right: 18px; 
+    cursor: pointer;
+}
+
+.text {
+    margin-left: 16px;
+    font-family: Montserrat;
+    font-size: 15px;
+    line-height: 22px; 
+    color: #131314;
+}
+
+.dots {
+    position: relative;
+    width: 4px;
+    height: 4px;
+    background-color: black;
+    border-radius: 50%;
+    background: #97A3B4;
+}
+
+.dots:before, .dots:after {
+content: "";
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0px;
+background-color: inherit;
+border-radius: inherit;
+}
+
+.dots:before {
+top: 8px;
+}
+
+
+.dots:after {
+top: 16px;
+}

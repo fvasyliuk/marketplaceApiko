@@ -1,0 +1,50 @@
+.container {    
+    display: flex; 
+    margin-left: 14px;   
+    justify-content: flex-start;
+    margin-bottom: 15px;
+}
+.myContainer {
+    display: flex; 
+    margin-left: 14px;   
+    justify-content: flex-end;
+    margin-bottom: 15px;
+}
+
+.message {
+    color: #FFFFFF;    
+    font-family: Montserrat;
+    font-size: 15.6px;
+    line-height: 26px;
+    border-radius: 5px;
+    background: #00AEEF;
+    padding: 4px 10px;
+}
+
+.pointer {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 8px 9px 0;
+    border-color: transparent #00AEEF transparent transparent;
+    margin-top: 8px;
+}
+
+.myMessage {
+    color: #131314;   
+    font-family: Montserrat;
+    font-size: 15.6px;
+    line-height: 26px;
+    border-radius: 5px;
+    background: #F3F6FA;
+    padding: 4px 10px;
+}
+
+.myPointer { 
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 9px 8px  8px;
+    border-color: transparent  transparent transparent #F3F6FA;  ;
+    margin-top: 8px;
+}

@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    background: #FFF;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    border-right: 1px solid #ccc;
+    overflow: scroll;
+    max-height: 900px;
+}
+
+.main {
+    display: flex;
+    flex: 4;
+}

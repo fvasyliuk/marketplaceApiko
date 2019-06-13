@@ -1,0 +1,91 @@
+.wrap {
+    display: flex;
+    flex-direction: column;
+   
+    .title {
+        margin: 17px auto 0 auto;
+        font-family: Helvetica;
+        font-size: 22px;
+        line-height: 25px;
+        color: #282828;
+    }
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 81%;
+    
+}
+
+.subject {
+    font-family: Helvetica;
+    font-size: 24px;
+    line-height: 28px;        
+    color: #373738; 
+    margin-top: 29px;   
+}
+.owner {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.avatarTextContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    .name {
+        font-family: Helvetica;
+        font-size: 24px;
+        line-height: 28px;
+        color: #2B2B2B;
+    }
+    .location {
+        margin-top: 4px;
+        font-family: Helvetica;
+        font-size: 15px;
+        line-height: 17px;
+        color: rgba(43, 43, 43, 0.499918);
+    }
+
+}
+label {
+    margin-top: 16px;
+    margin-bottom: 3px;
+    font-family: Helvetica;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+
+    color: #303030;
+}
+textarea {
+    height: 183px;
+    border-radius: 5px;
+    background: #F9FAFB;
+    border: 1px solid #DEDEE0;
+    padding: 16px 23px;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.4px;
+    resize: none;
+}
+
+
+.modalButton {   
+    margin: 24px auto 34px auto;
+    width: 57%;
+    height: 58px;
+    background: #349A89;
+    border-radius: 5px;
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 18px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}

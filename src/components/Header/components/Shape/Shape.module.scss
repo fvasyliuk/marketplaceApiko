@@ -1,0 +1,22 @@
+.shape {    
+    width: 20px;
+    height: 18.61px;
+    cursor: pointer;
+}
+
+.container {
+    margin-left: 39px;
+    width: 20px;
+    height: 19px;
+    cursor: pointer;    
+}
+.container:hover {
+    margin-left: 39px;
+    width: 20px;
+    height: 19px;
+    cursor: pointer;
+    .shape {    
+        width: 17.65px;
+        height: 15.81px;
+    }
+}

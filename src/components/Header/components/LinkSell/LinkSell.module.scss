@@ -1,0 +1,22 @@
+.header_button {
+    margin-right: 33px;    
+    border-radius: 4px;    
+    background: #349A89;
+    border: none;   
+    width: 131px;  
+    height: 31px; 
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_container {
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 14px; 
+}
