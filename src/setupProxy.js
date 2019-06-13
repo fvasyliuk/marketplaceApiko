@@ -3,7 +3,7 @@ const createProxy = require('http-proxy-middleware');
 const proxy = createProxy({
     target: 'https://apiko-marketplace-api-2019.herokuapp.com/',
     pathRewrite: {
-        '^https://intense-earth-67837.herokuapp.com/api': '',
+        '^/api': '',
     },
     changeOrigin: true,
 });
