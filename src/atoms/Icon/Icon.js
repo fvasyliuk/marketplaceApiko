@@ -4,7 +4,7 @@ import s from './Icon.module.scss';
 
 function Icon({ name, ...props }){
     return(          
-        <img src={`http://localhost:3000/svg/${name}`} {...props} />                                   
+        <img src={`https://intense-earth-67837.herokuapp.com/svg/${name}`} {...props} />                                   
     );
 }
 
