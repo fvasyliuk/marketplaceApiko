@@ -5,8 +5,8 @@ import s from './Logo.module.scss';
 
 function Logo({ light ,to, ...props}){
     const src = !light          
-        ?"http://localhost:3000/img/Logofull.png"
-        :"http://localhost:3000/img/LogofullLight.png";
+        ?"https://intense-earth-67837.herokuapp.com/img/Logofull.png"
+        :"https://intense-earth-67837.herokuapp.com/img/LogofullLight.png";
     return(
         <Link to={to} {...props} >
             <img src={src} alt="Logo" />

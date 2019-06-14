@@ -36,7 +36,7 @@ const enhancer = compose(
                 await props.login(body);            
                 props.history.push(routes.home);
             } catch (err) {
-                props.setSubmitError('Don`t valid email or password');
+                props.setSubmitError(err.message);
             }             
         },
     }),
